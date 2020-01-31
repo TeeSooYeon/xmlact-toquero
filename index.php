@@ -12,10 +12,10 @@
 			$vdesc = $data->getElementsByTagName("desc")->item(0)->nodeValue;
 			$vcure = $data->getElementsByTagName("cure")->item(0)->nodeValue;
 			
-			echo"<li>Virus:$vname
+			echo"<li><h3>Virus:</h3>$vname
 					<ul>
-						<li>Virus Description: $vdesc</li>
-						<li>Cure: $vcure</li>
+						<li><h4>Virus Description:</h4> $vdesc</li>
+						<li><h4>Cure:</h4> $vcure</li>
 					</ul>
 				</li>";
 		}
