@@ -1,6 +1,6 @@
 <?php
 	$domOBJ = new DOMDocument();
-	$domOBJ->load("http://demo-app-tsy.herokuapp.com/rss.php");
+	$domOBJ->load("http://xml-activity-toquero.herokuapp.com/rss.php");
 	
 	$content = $domOBJ->getElementsbyTagName("viruses");
 	
