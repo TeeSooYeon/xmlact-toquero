@@ -5,6 +5,10 @@
 	$content = $domOBJ->getElementsbyTagName("viruses");
 	
 ?>
+<html>
+	<head>
+		<title>Xml Activity by Hans</title>
+	</head>
 <ul>
 	<?php
 		foreach($content as $data){
@@ -21,3 +25,4 @@
 		}
 	?>
 </ul>
+</html>
